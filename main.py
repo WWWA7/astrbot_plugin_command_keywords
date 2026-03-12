@@ -57,5 +57,4 @@ class CommandKeywordsPlugin(Star):
             keyword_cmp = keyword if self.case_sensitive else keyword.lower()
             if msg_cmp == keyword_cmp:
                 event.should_call_llm(True)
-                event.stop_event()
                 return

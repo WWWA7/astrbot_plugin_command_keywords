@@ -1,0 +1,5 @@
+name: command-keywords
+desc: 关键词命令拦截，避免触发默认 LLM 回复
+version: v1.0.0
+author: WWWA7
+repo: https://github.com/WWWA7/astrbot_plugin_command_keywords

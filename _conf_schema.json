@@ -1,0 +1,21 @@
+{
+  "enable": {
+    "description": "是否启用关键词命令拦截",
+    "type": "bool",
+    "default": true
+  },
+  "keywords": {
+    "description": "关键词命令列表",
+    "type": "list",
+    "hint": "支持列表或字符串，字符串可用逗号/空格/分号分隔",
+    "default": [
+      "菜单",
+      "帮助"
+    ]
+  },
+  "case_sensitive": {
+    "description": "是否区分大小写",
+    "type": "bool",
+    "default": false
+  }
+}
